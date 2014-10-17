@@ -98,6 +98,6 @@ data = rbind(test_data, train_data)
 
 ##########################################################
 # 6) Write tidy data set to "tidy_data.txt"
-write.table(data, file = "tidy_data.txt")
+write.table(data, file = "tidy_data.txt", row.name=FALSE)
 
 
