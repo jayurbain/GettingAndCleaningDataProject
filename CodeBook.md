@@ -61,7 +61,7 @@ Application flow:
 5) Merge test and training data
 6) Write tidy data set to "tidy_data.txt"
 
-## Steps for executing ```run_analysis.R``` to create tidy smart phone activity data:
+## Steps for executing ```run_analysis.R``` to create tidy data set:
 1. Place ```run_analysis.R``` into your target working directory.
 2) From your R console, set your current working directory using the R ```setwd()``` function.
 3. Run ```source("run_analysis.R")```. A new file ```tiny_data.txt``` will be generated in your working directory.
